@@ -14,10 +14,14 @@ if usernameInput == "point" and passwordInput == "9466":
         Drink = int(input("How many?>>"))
         if int(Drink):
             print("Total :", price1 * Drink, "THB")
+            print("Thank you! See you Again :)")
     elif userSelected == 2:
         print("2. Green Tea         :60 THB")
         Drink = int(input("How many?>>"))
         if int(Drink):
             print("Total :", price2 * Drink, "THB")
+            print("Thank you! See you Again :)")
+    else:
+        print("Sry we don't have it, Pls choose again.")
 else:
     print("Try again!")
